@@ -1,0 +1,11 @@
+div.form-control  {
+  margin-top: 10px;
+}
+
+footer{
+  padding-top: 60px;
+  background-color: lightgrey;
+}
+#carousel-example-generic {
+  float: left;
+}
