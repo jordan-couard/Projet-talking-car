@@ -9,3 +9,11 @@ footer{
 #carousel-example-generic {
   float: left;
 }
+.trajet{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2vh;
+}
+h1{
+  text-align: center;
+}
