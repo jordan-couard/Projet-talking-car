@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Talkin' Car</title>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style2.css">
     <script src="https://use.fontawesome.com/10e5fbf439.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 
 </head>
 
@@ -33,28 +34,18 @@
   <span class="icon-bar"></span>
   <span class="icon-bar"></span>
 </button>
-                    <a class="navbar-brand" href="#">Talkin'Car</a>
+                    <a class="navbar-brand" href="#"><span id="title"><img src="Logo.png" alt="logo"></span></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                    </li>
-                    </ul>
+
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Subscribe</a></li>
+                        <li><a id="subscribe" href="#">Subscribe</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Connection<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><span id="connection"> Connection</span><span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <div class="form-group">
@@ -121,143 +112,174 @@
 
         <!--formulaire-->
         <div class="right-box">
-
-          <div class="container">
-                    <div class="row">
-                        <input type="hidden" name="count" value="1" />
-                        <div class="control-group" id="fields">
-                            <label class="control-label" for="field1">Nice Form Search and Propose</label>
-                            <div class="controls" id="profs">
-                                <form class="input-append">
-                                    <div id="field"><input autocomplete="off" class="input" id="field1" name="prof1" type="text" placeholder="Type something" data-items="8"/><button id="b1" class="btn add-more" type="button">+</button></div>
-                                </form>
-                            <br>
-                            <small>Press + to add another form field :)</small>
-                            </div>
-                        </div>
-                    </div>
+            <h4>I Search</h4>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Start">
                 </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Finish">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Day">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hour">
+                </div>
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  Search
+                </button>
+            </form>
 
-        </div>    <!--formulaire fin-->
+            <h4 id="secondaire">I Propose</h4>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Start">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Finish">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Day">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hour">
+                </div>
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  Propose
+                </button>
+            </form>
+        </div>
 
-    </div>    <!--fin contenaire avec carousel-->
 
-    <!--top travel-->
+        <!--formulaire fin-->
 
-    <h1>TOP TRAVELS</h1>
 
-    <!--top travel fin-->
-
+    </div>
+    <!--fin contenaire avec carousel-->
 
 
     <!--destination-->
-
-    <div class="container">
-        <div class="row">
-
-            <span class="col-md-3 col-xs-12 trajet">Chartres -> La Loupe</span>
-            <span class="col-md-3 col-xs-12 trajet">Bretoncelles -> La Loupe</span>
-            <span class="col-md-3 col-xs-12 trajet">La Ferté Vidame -> <br>La Loupe</span>
-            <span class="col-md-3 col-xs-12 trajet">Romorantin-Lanthenay -> La Loupe</span>
-
-        </div> <!--fin contenaire avec carousel-->
-    </div>
-
-    <!--destination fin-->
+    <div class="top">
 
 
-    <!--photos et modal chartres -->
+        <div class="container">
+            <h1>TOP TRAVELS</h1>
 
-    <div class="container photos">
-        <div class="row">
+        </div>
 
-            <div class="col-md-3 col-xs-6">
-                <button data-toggle="modal" data-target="#myModal1">
+        <!--destination fin-->
+
+
+        <!--photos et modal chartres -->
+
+        <div class="container photos">
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <p>Chartres -> Shanghai</p>
+                    <button data-toggle="modal" data-target="#myModal1">
             <img src="chartres.jpg">
                 </button>
-                <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                              <div class="inline"><img src="chartres.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
-                              </div>
-<!--paragraphe-->
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary"></span> Go To for 10<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
-                              <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="inline"><img src="chartres.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
+                                    </div>
+                                    <!--paragraphe-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary"></span> Go To for 10<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!--fin modal1-->
+                <!--fin modal1-->
 
-            <div class="col-md-3 col-xs-6">
-                <button data-toggle="modal" data-target="#myModal2">
+                <div class="col-md-3 col-xs-12">
+                    <p>Bretoncelles -> Pékin</p>
+                    <button data-toggle="modal" data-target="#myModal2">
             <img src="bretoncelles.jpg">
                 </button>
-                <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                              <div class="inline"><img src="bretoncelles.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
-                              </div>
-<!--paragraphe-->
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary"></span> Go To for 10<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
-                              <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="inline"><img src="bretoncelles.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
+                                    </div>
+                                    <!--paragraphe-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary"></span> Go To for 45<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!--fin modal2-->
+                <!--fin modal2-->
 
-            <div class="col-md-3 col-xs-6">
-                <button data-toggle="modal" data-target="#myModal3">
+                <div class="col-md-3 col-xs-12">
+                    <p>La Ferté Vidame -> Hong Kong</p>
+                    <button data-toggle="modal" data-target="#myModal3">
             <img src="ferte.jpg">
                 </button>
-                <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                              <div class="inline"><img src="ferte.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
-                              </div>
-<!--paragraphe-->
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary"></span> Go To for 10<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
-                              <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="inline"><img src="ferte.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
+                                    </div>
+                                    <!--paragraphe-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary"></span> Go To for 28<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!--fin modal3-->
+                <!--fin modal3-->
 
-            <div class="col-md-3 col-xs-6">
-                <button data-toggle="modal" data-target="#myModal4">
+                <div class="col-md-3 col-xs-12">
+                    <p>Romorantin-Lanthenay -> Canton</p>
+                    <button data-toggle="modal" data-target="#myModal4">
             <img src="romo.jpg">
                 </button>
-                <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                              <div class="inline"><img src="romo.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
-                              </div>
-<!--paragraphe-->
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary"></span> Go To for 10<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
-                              <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                    <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="inline"><img src="romo.jpg"><span class=" glyphicon glyphicon-arrow-right"></span><img class="mdroite" src="loupe.jpg">
+                                    </div>
+                                    <!--paragraphe-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary"></span> Go To for 34<span class="glyphicon glyphicon-usd" aria-hidden="true"></button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!--fin modal4-->
+                <!--fin modal4-->
 
-        </div><!--fin row-->
-    </div> <!--fin container-->
-
+            </div>
+            <!--fin row-->
+        </div>
+        <!--fin container-->
+    </div>
 
     <!--photos et modal fin-->
 
@@ -267,31 +289,31 @@
     <!--MAP-->
     <div id="googleMap"></div>
 
-<!-- Add Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter = new google.maps.LatLng(39.9075000, 116.3972300);
+    <!-- Add Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var myCenter = new google.maps.LatLng(39.9075000, 116.3972300);
 
-function initialize() {
-var mapProp = {
-  center:myCenter,
-  zoom:12,
-  scrollwheel:false,
-  draggable:false,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
+        function initialize() {
+            var mapProp = {
+                center: myCenter,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
 
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-var marker = new google.maps.Marker({
-  position:myCenter,
-  });
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
 
-marker.setMap(map);
-}
+            marker.setMap(map);
+        }
 
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
 
     <!--MAP fin-->
@@ -301,13 +323,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
     <!--Footer-->
 
-  <footer>
-   <p id="foot"> <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-     <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
-     <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-     <i class="fa fa-github-square fa-3x" aria-hidden="true"></i></p>
-     <a> Talking'car | Produit de la WCS la loupe | Réalisé par : Jehan Henry , Couard Jordan, Jousselin Emmanuel, Clousier Victor | Ⓒ 2017<br></a>
-  </footer>
+    <footer>
+        <p id="foot"> <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-github-square fa-3x" aria-hidden="true"></i></p>
+        <a id="fin"> Talkin' car | Produit de la WCS la loupe | Réalisé par : Henry Jehan , Couard Jordan, Jousselin Emmanuel, Clousier Victor | Ⓒ 2017<br></a>
+    </footer>
 
     <!--Footer fin-->
 
