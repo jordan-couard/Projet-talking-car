@@ -6,14 +6,29 @@ footer{
   padding-top: 60px;
   background-color: lightgrey;
 }
+.container{
+    border: 5px solid red;
+}
 #carousel-example-generic {
   float: left;
 }
+
 .trajet{
-  font-weight: bold;
-  text-align: center;
-  margin-top: 2vh;
+font-weight: bold;
 }
 h1{
   text-align: center;
+  }
+.inline{
+  display: inline-block;
+}
+.glyphicon-arrow-right{
+  font-size: 8vh;
+  margin: 3.7vh;
+}
+.xs-12{
+  text-align: center;
+}
+.container-fluid{
+    border: 5px solid blue;
 }

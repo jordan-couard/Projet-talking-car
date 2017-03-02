@@ -1,0 +1,58 @@
+.left-box{
+  float: left;
+
+}
+.right-box{
+  border: 2px solid blue;
+  height: 480px;width: 480px;
+  float: right;
+}
+h1{
+text-align: center;
+text-decoration: underline overline blue;
+}
+.trajet{
+  font-weight: bold;
+  font-size: 1.3vw;
+  text-align: center;
+}
+.glyphicon-arrow-right{
+  font-size: 4vw;
+  margin-left: 3vw;
+  margin-top: 4vw;
+  position: absolute;
+}
+p .glyphicon-arrow-right{
+  font-size: 1vw;
+}
+.mdroite{
+  float: right;
+}
+footer{
+  margin: auto 0;
+  font-size: 18px;
+  text-align: center;
+  width: auto;
+  height: 50vm;
+  background-color: lightgrey;
+ }
+article {
+  margin-bottom: 2em;
+  display: inline;
+  text-align: center;
+}
+#foot { letter-spacing: 8px;
+  padding : 1.2em;
+}
+
+#googleMap
+{
+  height: 300px;
+  width: 95%;
+  margin: 5% auto;
+}
+*{ .border-radius(0) !important; }
+
+#field {
+    margin-bottom:20px;
+}
