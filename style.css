@@ -20,3 +20,10 @@ h1{
 .form{
   float: right;
 }
+* {
+  .border-radius(0) !important;
+}
+
+#field {
+    margin-bottom:20px;
+}
