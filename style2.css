@@ -33,7 +33,6 @@
     max-width: auto;
     margin-right: 10%;
     float: right;
-
 }
 
 h1 {
@@ -137,39 +136,40 @@ h4 {
 h2 {
     text-align: center;
     margin-bottom: 0.5em;
-
     font-size: 3.2em;
 }
 
 .parts {
-  padding-left: 3.5em;
-  padding-right: 2em;
-  margin-bottom: 1vh;
-  border-color: black;
-  margin-left: 2em;
-  min-height: 7vh;
-  max-height: 15vh;
-  width: auto;
-  padding-bottom: 2em;
-
- }
-
- #part{
-   background-color: darkgrey;
- }
-ul > .dropdown{
-  font-size: 1em;
-  padding-right: 0.3em;
-  padding-bottom: 1.2em;
-}
-.form-control1{
-  margin-bottom: -1.5em;
-}
-.form-control2{
-  margin-top: 2em;
+    padding-left: 3.5em;
+    padding-right: 2em;
+    margin-bottom: 1vh;
+    border-color: black;
+    margin-left: 2em;
+    min-height: 7vh;
+    max-height: 15vh;
+    width: auto;
+    padding-bottom: 2em;
 }
 
-.dropdown-menu{
-padding-bottom: 1.5em;
-padding-right: 0.5em;
+#part {
+    background-color: darkgrey;
+}
+
+ul>.dropdown {
+    font-size: 1em;
+    padding-right: 0.3em;
+    padding-bottom: 1.2em;
+}
+
+.form-control1 {
+    margin-bottom: -1.5em;
+}
+
+.form-control2 {
+    margin-top: 2em;
+}
+
+.dropdown-menu {
+    padding-bottom: 1.5em;
+    padding-right: 0.5em;
 }
